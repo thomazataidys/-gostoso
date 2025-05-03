@@ -52,6 +52,7 @@ body {
 
 /* Formulário */
 .form-container {
+  margin-bottom: 20px;
   margin-top: 20px;
   margin-left: 18px;
   padding: 30px 20px;
