@@ -6,11 +6,11 @@
 }
 
 :root {
-  --primary-color: #f3db0c;
-  --secondary-color: #1e1f12;
+  --primary-color: #eddd1d;
+  --secondary-color: #252810;
   --light-color: #f4eee1;
   --white: #ffffff;
-  --dark-yellow: #d8c500;
+  --dark-yellow: #eddd1d;
 }
 
 body {
@@ -39,11 +39,12 @@ body {
   border-bottom-right-radius: 40px;
   display: flex;
   justify-content: center;
+  image-rendering: auto;
 }
 
 .header img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 90px;
   border-radius: 50%;
 }
 
@@ -118,8 +119,14 @@ body {
 }
 
 .logo-bottom img {
-  width: 30px;
-  margin-right: 5px;
+  margin-right: 10px;
+  width: 200px;
+  height: 65px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
 /* ===== MENU PAGE ===== */
@@ -153,16 +160,40 @@ body {
 }
 
 .menu-logo img {
-  height: 32px;
+  margin-right: 10px;
+  width: 140px;
+  height: 55px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 16px;
 }
 
-.menu-btn,
+.menu-btn {
+  margin-right: 10px;
+  width: 140px;
+  height: 55px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 16px;
+}
 .cart-btn {
   background: none;
   border: none;
   font-size: 1.5rem;
   cursor: pointer;
   color: var(--secondary-color);
+  margin-right: 10px;
+  width: 140px;
+  height: 55px;
+  border-radius: 40%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-left: 16px;
 }
 
 .menu-tabs {
