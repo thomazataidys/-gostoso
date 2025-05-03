@@ -14,6 +14,7 @@
 }
 
 body {
+  margin: 0;
   font-family: "Nunito", sans-serif;
   background-color: #f4f4f4;
   display: flex;
@@ -29,6 +30,7 @@ body {
   border-radius: 30px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 /* Cabeçalho amarelo com logo */
@@ -50,8 +52,20 @@ body {
 
 /* Formulário */
 .form-container {
+  margin-top: 20px;
+  margin-left: 18px;
   padding: 30px 20px;
   text-align: center;
+  border: 1px solid #070505b0;
+  border-radius: 40px;
+  width: 90%;
+  max-width: 320px ;
+  justify-content: center;
+}
+
+.logo-bottom{
+  position: relative;
+  bottom: 30px;
 }
 
 .form-group {
