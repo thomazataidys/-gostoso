@@ -211,14 +211,12 @@ body {
 }
 
 .menu-logo img {
-  margin-right: 10px;
   width: 140px;
-  height: 55px;
+  height: auto;
   border-radius: 40%;
   display: flex;
   justify-content: center;
-  margin-top: 5px;
-  margin-left: 16px;
+  margin-top: 0px;
 }
 
 .menu-btn {
