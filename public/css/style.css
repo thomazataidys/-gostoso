@@ -26,7 +26,7 @@ body {
 
 /* Container principal */
 .container {
-  background-color: var(--light-color);
+  background-color:#f4eee1;
   width: 340px;
   border-radius: 30px;
   overflow: hidden;
@@ -61,7 +61,7 @@ body {
 
 /* Formulário */
 .form-container {
-  background-color: var(--light-color);
+  background-color: #f4eee1;
   margin-bottom: 40px;
   margin-top: 60%;
   text-align: center;
