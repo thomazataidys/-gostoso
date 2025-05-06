@@ -61,7 +61,7 @@ body {
 
 /* Formulário */
 .form-container {
-  background-color: #f4eee1;
+  background-color: var(--light-color);
   margin-bottom: 40px;
   margin-top: 60%;
   text-align: center;
